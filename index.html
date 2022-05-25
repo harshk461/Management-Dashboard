@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Management Dashboard</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <i class="fas fa-water"></i>
+            </div>
+            <div class="sidebar-content">
+                <div class="icons">
+                    <i class="fas fa-home"></i>
+                    <i class="fas fa-chart-pie"></i>
+                    <i class="fas fa-briefcase"></i>
+                    <i class="fas fa-cog"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-box">
+            <nav class="navbar">
+                <h3>Portfolio</h3>
+                <input type="text" class="search" placeholder="Search">
+            </nav>
+            <div class="main-display">
+                <div class="header">
+                    <h3>Projects</h3>
+                    <h2>December,12</h2>
+                </div>
+                <div class="project">
+                    <div class="project-detail">
+                        <div class="det1 detail">
+                            <h3>45</h3>
+                            <p>in Progress o</p>
+                        </div>
+                        <div class="det2 detail">
+                            <h3>24</h3>
+                            <p>Upcoming o</p>
+                        </div>
+                        <div class="det3 detail">
+                            <h3>62</h3>
+                            <p>Total Projects</p>
+                        </div>
+                    </div>
+                    <div class="detail-type">
+                        <i class="fas fa-list" id="list"></i>
+                        <i class="fas fa-th-large" id="grid"></i>
+                    </div>
+                </div>
+                <div class="projects-display" id="projects-display">
+                    <div class="project-box card" style="background-color: #fee4cb;">  
+                        <div class="project-box-header">  
+                        <span>December 10, 2020</span>  
+                        <div class="more-wrapper">  
+                        <button class="project-btn-more">  
+                        <i class="fas fa-ellipsis-v"></i>
+                        </button>  
+                    </div>  
+                    </div>  
+                    <div class="project-box-content-header">  
+                    <p class="box-content-header">Web Designing</p>  
+                    <p class="box-content-subheader">Prototyping</p>  
+                    </div>  
+                    <div class="box-progress-wrapper">  
+                    <p class="box-progress-header">Progress</p>  
+                    <div class="box-progress-bar">  
+                        <span class="box-progress" style="width: 60%; background-color: #ff942e"></span>  
+                    </div>  
+                    <p class="box-progress-percentage">60%</p>  
+                    </div>  
+                    <div class="project-box-footer">  
+                    <div class="participants"> 
+                        <button class="add-participant" style="color: #ff942e;">  
+                            <i class="fas fa-plus time"></i>
+                        </button>  
+                    </div>  
+                    <div class="days-left" style="color: #ff942e;">  
+                        2 Days Left  
+                    </div>  
+                    </div>  
+                    </div>  
+                    <div class="project-box card" style="background-color: #e9e7fd;">  
+                        <div class="project-box-header">  
+                        <span>December 10, 2020</span>  
+                        <div class="more-wrapper">  
+                        <button class="project-btn-more">  
+                        <i class="fas fa-ellipsis-v"></i>
+                        </button>  
+                    </div>  
+                    </div>  
+                    <div class="project-box-content-header">  
+                    <p class="box-content-header">Testing</p>  
+                    <p class="box-content-subheader">Prototyping</p>  
+                    </div>  
+                    <div class="box-progress-wrapper">  
+                    <p class="box-progress-header">Progress</p>  
+                    <div class="box-progress-bar">  
+                        <span class="box-progress" style="width: 40%; background-color: #4f3ff0"></span>  
+                    </div>  
+                    <p class="box-progress-percentage">40%</p>  
+                    </div>  
+                    <div class="project-box-footer">  
+                    <div class="participants"> 
+                        <button class="add-participant">  
+                            <i class="fas fa-plus time" style="color: #4f3ff0;"></i>
+                        </button>  
+                    </div>  
+                    <div class="days-left" style="color: #4f3ff0;">  
+                        2 Days Left  
+                    </div>  
+                    </div>  
+                    </div>  
+                    <div class="project-box card" style="background-color: #dbf6fd;">  
+                        <div class="project-box-header">  
+                        <span>December 10, 2020</span>  
+                        <div class="more-wrapper">  
+                        <button class="project-btn-more">  
+                        <i class="fas fa-ellipsis-v"></i>
+                        </button>  
+                    </div>  
+                    </div>  
+                    <div class="project-box-content-header">  
+                    <p class="box-content-header">Svg Animation</p>  
+                    <p class="box-content-subheader">Prototyping</p>  
+                    </div>  
+                    <div class="box-progress-wrapper">  
+                    <p class="box-progress-header">Progress</p>  
+                    <div class="box-progress-bar">  
+                        <span class="box-progress" style="width: 80%; background-color: #096c86"></span>  
+                    </div>  
+                    <p class="box-progress-percentage">80%</p>  
+                    </div>  
+                    <div class="project-box-footer">  
+                    <div class="participants"> 
+                        <button class="add-participant" style="color: #096c86;">  
+                            <i class="fas fa-plus time"></i>
+                        </button>  
+                    </div>  
+                    <div class="days-left" style="color: #096c86;">  
+                        2 Days Left  
+                    </div>  
+                    </div>  
+                    </div>  
+                    <div class="project-box card" style="background-color: #ffd3e2;">  
+                        <div class="project-box-header">  
+                        <span>December 10, 2020</span>  
+                        <div class="more-wrapper">  
+                        <button class="project-btn-more">  
+                        <i class="fas fa-ellipsis-v"></i>
+                        </button>  
+                    </div>  
+                    </div>  
+                    <div class="project-box-content-header">  
+                    <p class="box-content-header">UI Development</p>  
+                    <p class="box-content-subheader">Prototyping</p>  
+                    </div>  
+                    <div class="box-progress-wrapper">  
+                    <p class="box-progress-header">Progress</p>  
+                    <div class="box-progress-bar">  
+                        <span class="box-progress" style="width: 30%; background-color: #df3670"></span>  
+                    </div>  
+                    <p class="box-progress-percentage">30%</p>  
+                    </div>  
+                    <div class="project-box-footer">  
+                    <div class="participants"> 
+                        <button class="add-participant">  
+                            <i class="fas fa-plus time" style="color: #df3670;"></i>
+                        </button>  
+                    </div>  
+                    <div class="days-left" style="color: #df3670;">  
+                        2 Days Left  
+                    </div>  
+                    </div>  
+                    </div>  
+                    <div class="project-box card" style="background-color: #c8f7dc;">  
+                        <div class="project-box-header">  
+                        <span>December 10, 2020</span>  
+                        <div class="more-wrapper">  
+                        <button class="project-btn-more">  
+                        <i class="fas fa-ellipsis-v"></i>
+                        </button>  
+                    </div>  
+                    </div>  
+                    <div class="project-box-content-header">  
+                    <p class="box-content-header">Data Analysis</p>  
+                    <p class="box-content-subheader">Prototyping</p>  
+                    </div>  
+                    <div class="box-progress-wrapper">  
+                    <p class="box-progress-header">Progress</p>  
+                    <div class="box-progress-bar">  
+                        <span class="box-progress" style="width: 50%; background-color: #34c471"></span>  
+                    </div>  
+                    <p class="box-progress-percentage">50%</p>  
+                    </div>  
+                    <div class="project-box-footer">  
+                    <div class="participants"> 
+                        <button class="add-participant" >  
+                            <i class="fas fa-plus time" style="color: #34c471;"></i>
+                        </button>  
+                    </div>  
+                    <div class="days-left" style="color: #34c471;">  
+                        2 Days Left  
+                    </div>  
+                    </div>  
+                    </div>  
+                    <div class="project-box card" style="background-color: #d5deff;">  
+                        <div class="project-box-header">  
+                        <span>December 10, 2020</span>  
+                        <div class="more-wrapper">  
+                        <button class="project-btn-more">  
+                        <i class="fas fa-ellipsis-v"></i>
+                        </button>  
+                    </div>  
+                    </div>  
+                    <div class="project-box-content-header">  
+                    <p class="box-content-header">Web Designing</p>  
+                    <p class="box-content-subheader">Prototyping</p>  
+                    </div>  
+                    <div class="box-progress-wrapper">  
+                    <p class="box-progress-header">Progress</p>  
+                    <div class="box-progress-bar">  
+                        <span class="box-progress" style="width: 40%; background-color: #4067f9"></span>  
+                    </div>  
+                    <p class="box-progress-percentage">40%</p>  
+                    </div>  
+                    <div class="project-box-footer">  
+                    <div class="participants"> 
+                        <button class="add-participant">  
+                            <i class="fas fa-plus time" style="color: #4067f9;"></i>
+                        </button>  
+                    </div>  
+                    <div class="days-left" style="color: #4067f9;">  
+                        2 Days Left  
+                    </div>  
+                    </div>  
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <div class="topbar">
+                <div class="icon">
+                    <i class="far fa-sun" id="moon"></i>
+                    <i class="fas fa-plus"></i>
+                    <i class="far fa-bell"></i>
+                </div>
+                <div class="owner">
+                    <img src="/assets/img/avatar.jpg">
+                    <p>Mathew</p>
+                </div>
+            </div>
+            <div class="messages">
+                <h3>Client Messages</h3>
+                <div class="card-message">
+                    <div class="logo">
+                        <img src="/assets/img/avatar.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="up">
+                            <h2>Mark</h2>
+                            <i class="far fa-star star"></i>
+                        </div>
+                        <div class="bottom">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus blanditiis maxime, praesentium ut quis dolores illum consectetur nemo laboriosam adipisci.</p>
+                            <p>Dec,12</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-message">
+                    <div class="logo">
+                        <img src="/assets/img/avatar.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="up">
+                            <h2>Mark</h2>
+                            <i class="far fa-star star"></i>
+                        </div>
+                        <div class="bottom">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus blanditiis maxime, praesentium ut quis dolores illum consectetur nemo laboriosam adipisci.</p>
+                            <p>Dec,12</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-message">
+                    <div class="logo">
+                        <img src="/assets/img/avatar.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="up">
+                            <h2>Mark</h2>
+                            <i class="far fa-star star"></i>
+                        </div>
+                        <div class="bottom">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus blanditiis maxime, praesentium ut quis dolores illum consectetur nemo laboriosam adipisci.</p>
+                            <p>Dec,12</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-message">
+                    <div class="logo">
+                        <img src="/assets/img/avatar.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="up">
+                            <h2>Mark</h2>
+                            <i class="far fa-star star"></i>
+                        </div>
+                        <div class="bottom">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus blanditiis maxime, praesentium ut quis dolores illum consectetur nemo laboriosam adipisci.</p>
+                            <p>Dec,12</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-message">
+                    <div class="logo">
+                        <img src="/assets/img/avatar.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="up">
+                            <h2>Mark</h2>
+                            <i class="far fa-star star"></i>
+                        </div>
+                        <div class="bottom">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus blanditiis maxime, praesentium ut quis dolores illum consectetur nemo laboriosam adipisci.</p>
+                            <p>Dec,12</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/src/script.js"></script>
+</body>
+</html>
