@@ -457,12 +457,8 @@ body{
     .projects-display .project-box{
         width: 48%;
     }
-    .detail-type{
-        display: none;
-    }
     .project{
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
     }
     .message-button{
         display: block;
@@ -470,9 +466,6 @@ body{
 
 }
 @media (max-width:576px) {
-    .detail-type{
-        display: none;
-    }
     .projects-display .project-box{
         width: 100%;
     }
@@ -482,9 +475,10 @@ body{
     .navbar{
         height: fit-content;
     }
+    .project{
+        justify-content: space-between;
+    }
     .project-detail{
-        justify-content: center;
-        align-items: center;
         gap:1rem;
     }
     .message-button{

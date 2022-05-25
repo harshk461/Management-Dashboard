@@ -26,6 +26,7 @@ for(let i=0;i<star.length;i++){
         }
     }
 }
+console.log(window.screen.width);
 
 const list=document.getElementById('list');
 const grid=document.getElementById('grid');
@@ -38,20 +39,14 @@ list.addEventListener('click',()=>{
 })
 grid.addEventListener('click',()=>{
     for(let i=0;i<cards.length;++i){
-        
-        cards[i].style.width='30%';
-    }
-})
-
-const message=document.querySelector('.message-button');
-
-message.addEventListener('click',()=>{
-    if(document.querySelector('.contacts').classList.contains('show')){
-        document.querySelector('.contacts').classList.remove('show');
-        document.querySelector('.contacts').style.display='none';
-    }
-    else{
-        document.querySelector('.contacts').classList.add('show');
-        document.querySelector('.contacts').style.display='block';
+        if(window.screen.width > 790){
+            cards[i].style.width='48%';
+        }
+        if(window.screen.width > 1100){
+            cards[i].style.width='30%';
+        }
+        // if(window.screen.width >590){
+        //     cards[i].style.width='10%';
+        // }
     }
 })
